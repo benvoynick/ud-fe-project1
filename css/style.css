@@ -71,7 +71,6 @@
 .portfolio-item {
 	padding-bottom: 20px;
 	text-align: center;
-	color: #bcbbbb;
 }
 
 .portfolio-item-image {
@@ -80,5 +79,6 @@
 
 .portfolio-item-header {
 	margin: 0 0 20px 15px;
+	color: #bcbbbb;
 	text-transform: uppercase;
 }
