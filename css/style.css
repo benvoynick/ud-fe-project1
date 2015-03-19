@@ -52,10 +52,23 @@
 }
 
 
+/* Masthead */
+
+.masthead-image {
+	padding-bottom: 15px;
+}
+
+@media screen and (min-width: 400px){
+	.masthead-image {
+		padding-bottom: 4.5%;
+	}
+}
+
+
 /* Portfolio */
 
 .portfolio-header {
-	margin: 50px 0 20px 15px;
+	margin: 0 0 20px 15px;
 	color: #bcbbbb;
 }
 
