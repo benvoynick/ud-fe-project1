@@ -70,10 +70,12 @@
 
 .portfolio-header {
 	color: #bcbbbb;
+	margin: 0 0 20px 15px;
 }
 
 .portfolio-item {
 	padding-bottom: 20px;
+	color: #676857;
 	text-align: center;
 }
 
@@ -82,6 +84,15 @@
 }
 
 .portfolio-item-header {
-	margin: 0 0 20px 15px;
 	text-transform: uppercase;
+}
+
+.portfolio-item-link {
+	color: #bcbbbb;
+}
+
+.portfolio-item-link:hover,
+.portfolio-item-link:focus {
+	color: #bcbbbb;
+	text-decoration: underline;
 }
