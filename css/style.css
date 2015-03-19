@@ -62,3 +62,7 @@
 .portfolio-item {
 	text-align: center;
 }
+
+.portfolio-item-image {
+	display: inline-block;
+}
