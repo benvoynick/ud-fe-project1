@@ -8,8 +8,44 @@
 /* Header */
 
 .header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-bottom: 6px solid #bcbbbb;
 	margin-bottom: 30px;
+}
+
+@media screen and (min-width: 400px) {
+	.header {
+		justify-content: space-between;
+	}
+}
+
+.logo-container {
+	flex-grow: 1;
+	text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+	.logo-container {
+		text-align: left;
+	}
+}
+
+.title-panel {
+	flex-grow: 1;
+	text-align: center;
+}
+
+@media screen and (min-width: 400px){
+	.title-panel {
+		text-align: right;
+	}
+}
+
+.name-header {
+	margin: 10px 0;
 }
