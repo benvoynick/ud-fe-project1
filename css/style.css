@@ -68,6 +68,10 @@
 
 /* Portfolio */
 
+.portfolio-header {
+	color: #bcbbbb;
+}
+
 .portfolio-item {
 	padding-bottom: 20px;
 	text-align: center;
@@ -79,6 +83,5 @@
 
 .portfolio-item-header {
 	margin: 0 0 20px 15px;
-	color: #bcbbbb;
 	text-transform: uppercase;
 }
