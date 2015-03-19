@@ -38,6 +38,7 @@
 .title-panel {
 	flex-grow: 1;
 	text-align: center;
+	text-transform: uppercase;
 	color: #676857;
 }
 
@@ -79,4 +80,8 @@
 
 .portfolio-item-image {
 	display: inline-block;
+}
+
+.portfolio-item-header {
+	text-transform: uppercase;
 }
