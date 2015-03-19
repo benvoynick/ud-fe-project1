@@ -39,6 +39,7 @@
 	flex-grow: 1;
 	text-align: center;
 	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
 	color: #676857;
 }
 
@@ -50,6 +51,38 @@
 
 .name-header {
 	margin: 10px 0;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 500px){
+	.name-header {
+		font-size: 42px;
+	}
+}
+
+@media screen and (min-width: 650px){
+	.name-header {
+		font-size: 64px;
+		font-weight: normal;
+	}
+}
+
+.personal-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 500px){
+	.personal-title {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 650px){
+	.personal-title {
+		font-size: 24px;
+	}
 }
 
 
