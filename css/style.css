@@ -103,11 +103,20 @@
 
 .portfolio-header {
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 34px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: #bcbbbb;
-	margin: 0 0 20px 15px;
+	margin: 0 auto 20px auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 400px){
+	.portfolio-header{
+		font-size: 40px;
+		margin: 0 0 20px 15px;
+		text-align: left;
+	}
 }
 
 .portfolio-item {
@@ -122,15 +131,27 @@
 }
 
 .portfolio-item-header {
-	font-size: 40px;
+	font-size: 34px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
+@media screen and (min-width: 400px){
+	.portfolio-item-header {
+		font-size: 40px;
+	}
+}
+
 .portfolio-item-link {
-	font-size: 16px;
+	font-size: 14px;
 	color: #676857;
 	text-decoration: none;
+}
+
+@media screen and (min-width: 400px){
+	.portfolio-item-link {
+		font-size: 16px;
+	}
 }
 
 .portfolio-item-link:hover,
