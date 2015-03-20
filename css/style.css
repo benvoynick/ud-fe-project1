@@ -36,7 +36,8 @@
 }
 
 .logo {
-	border: 10px solid #f8981c;
+	background-color: #566;
+	border: 10px solid #566;
 	border-radius: 50%;
 }
 
