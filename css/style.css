@@ -102,11 +102,16 @@
 /* Portfolio */
 
 .portfolio-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	color: #bcbbbb;
 	margin: 0 0 20px 15px;
 }
 
 .portfolio-item {
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 20px;
 	color: #676857;
 	text-align: center;
@@ -117,15 +122,18 @@
 }
 
 .portfolio-item-header {
+	font-size: 40px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
 .portfolio-item-link {
-	color: #bcbbbb;
+	font-size: 16px;
+	color: #676857;
+	text-decoration: none;
 }
 
 .portfolio-item-link:hover,
 .portfolio-item-link:focus {
-	color: #bcbbbb;
 	text-decoration: underline;
 }
