@@ -151,6 +151,7 @@
 	font-size: 14px;
 	color: #676857;
 	text-decoration: none;
+	word-break: break-all;
 }
 
 @media screen and (min-width: 400px){
