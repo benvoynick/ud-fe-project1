@@ -14,7 +14,7 @@
 	align-items: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	border-bottom: 6px solid #bcbbbb;
+	border-bottom: 6px solid #bbb;
 	margin-bottom: 30px;
 }
 
@@ -112,7 +112,7 @@
 	font-size: 34px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: #bcbbbb;
+	color: #bbb;
 	margin: 0 auto 20px auto;
 	text-align: center;
 }
