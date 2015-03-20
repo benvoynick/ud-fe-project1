@@ -35,6 +35,11 @@
 	}
 }
 
+.logo {
+	border: 10px solid #f8981c;
+	border-radius: 50%;
+}
+
 .title-panel {
 	flex-grow: 1;
 	text-align: center;
